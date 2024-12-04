@@ -3,7 +3,7 @@
 
 **Next Banking** is a modern and robust banking application built with **Next.js**, featuring seamless integration with third-party APIs and tools to enhance user experience and developer productivity.
 
-![Next Banking Screenshot](https://your-screenshot-url.com) <!-- Replace with your actual screenshot URL -->
+<img width="1715" alt="Screenshot 2024-12-04 at 12 07 40 pm" src="https://github.com/user-attachments/assets/e9f0dc3b-db0f-45e7-ac39-897b845cb22a">
 
 ## 🌐 Test URL
 
@@ -39,7 +39,7 @@ Explore the app in the test environment: [Next Banking - Test Environment](https
 
 ## 📸 Screenshots
 
-![App Screenshot](https://your-screenshot-url.com) <!-- Add or update the screenshot URL -->
+<img width="1718" alt="Screenshot 2024-12-04 at 12 08 08 pm" src="https://github.com/user-attachments/assets/1089b52e-2539-4c7f-89b0-b909e8ad893b">
 
 ---
 
