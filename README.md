@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Next Banking 🏦
 
-First, run the development server:
+**Next Banking** is a modern and robust banking application built with **Next.js**, featuring seamless integration with third-party APIs and tools to enhance user experience and developer productivity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Next Banking Screenshot](https://your-screenshot-url.com) <!-- Replace with your actual screenshot URL -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Test URL
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Explore the app in the test environment: [Next Banking - Test Environment](https://next-banking.vercel.app) <!-- Update the URL if needed -->
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Modern Frontend:** Built with **Next.js** and **TypeScript** for a scalable and efficient development experience.
+- **Banking Integrations:**
+  - **Plaid**: Securely link and interact with bank accounts.
+  - **Dwolla**: Facilitate ACH transfers with ease.
+- **Authentication & Backend Services:**
+  - **Appwrite**: Manage user authentication and backend functionality.
+- **Error Monitoring:**
+  - **Sentry**: Detect and monitor errors in production for faster debugging.
+- **Responsive UI:** Built with **Tailwind CSS** for an adaptive design on all devices.
+- **Light/Dark Mode:** Customizable user experience based on preferences.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Technologies Used
 
-## Deploy on Vercel
+- **Frontend:** [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Error Monitoring:** [Sentry](https://sentry.io/)
+- **Banking APIs:** [Plaid](https://plaid.com/), [Dwolla](https://www.dwolla.com/)
+- **Backend Services:** [Appwrite](https://appwrite.io/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Screenshots
+
+![App Screenshot](https://your-screenshot-url.com) <!-- Add or update the screenshot URL -->
+
+---
+
+## 🔧 Setup & Installation
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- NPM or Yarn
+- Environment variables for Sentry, Appwrite, Plaid, and Dwolla
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pablin202/next-banking.git
+   cd next-banking
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure environment variables:
+   Create a `.env.local` file in the root directory and add the following:
+   ```env
+   SENTRY_DSN=<your-sentry-dsn>
+   APPWRITE_ENDPOINT=<your-appwrite-endpoint>
+   APPWRITE_PROJECT=<your-appwrite-project-id>
+   PLAID_CLIENT_ID=<your-plaid-client-id>
+   PLAID_SECRET=<your-plaid-secret>
+   DWOLLA_KEY=<your-dwolla-key>
+   DWOLLA_SECRET=<your-dwolla-secret>
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+---
+
+## 🚀 Deployment
+
+1. Deploy the app on **Vercel**:
+   - Link your repository.
+   - Add environment variables in the **Vercel dashboard**.
+   - Trigger a new deployment.
+
+2. Monitor errors and performance via **Sentry**.
+
+---
+
+## 🔗 API Integrations
+
+- **Plaid**: Handles secure bank connections and financial data aggregation.
+- **Dwolla**: Facilitates ACH transfers for secure money movement.
+- **Appwrite**: Provides authentication, database, and real-time functionality.
+
+---
+
+## 🛡️ Error Monitoring with Sentry
+
+Sentry is integrated to monitor errors and exceptions:
+1. Errors are automatically captured during runtime.
+2. Use the **Sentry dashboard** to view and address issues.
+
+---
+
+## 📋 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to contribute, report issues, or suggest features to improve this project. 😊
